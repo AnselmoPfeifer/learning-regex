@@ -1,7 +1,6 @@
 # learning-regex
 
-- . o "ponto" que significa qualquer char
-- * o asterisco que serve para definir uma quantidade de chars, zero ou mais
+- \* o asterisco que serve para definir uma quantidade de chars, zero ou mais
 - a {3} letra a 3 vezes.
 - \d* um digito zero ou mais vezes
 - \d{3}\.\d{3}.\d{3}-\d{2} - Buscar um CPNJ 222.345.567-00
