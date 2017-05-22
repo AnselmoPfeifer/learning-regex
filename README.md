@@ -31,3 +31,11 @@
     - {n} - exatamente n vezes.
     - {n,} - no mínimo n vezes.
     - {n,m} - no mínimo n vezes, no máximo m vezes.
+
+## Usando uma Ancora usando o \b - Word boundary
+    \ba{3}\b - Numa string (aaa aaaa aaa aaaa aaa) vai trazer somente aaa
+    ^Ex.+res$ - Vai encontrar a expressao com: Expressões regulares
+
+## Expressões gananciosas
+    <h1.+?>([\s\wõçã]+)</h1> - Extraindo somente o texto dentro da tag H1
+    <(h1|h2).+?>([\s\wõçã]+)</\1> - Usando a back-reference dos grupos.
