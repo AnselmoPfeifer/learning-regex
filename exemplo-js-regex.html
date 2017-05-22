@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo de Regex usando JS</title>
+</head>
+<script>
+    var alvo = '11a22b33c';
+    var exp = new RegExp('(\\d\\d)(\\w)', 'g');
+    var resultado = exp.exec(alvo);
+    console.log(resultado);
+    console.log(exp.lastIndex);
+</script>
+<body>
+
+</body>
+</html>
